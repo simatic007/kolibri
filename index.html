@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<!--if IE 8|<html class="no-js lt-ie9">
+-->
+<!--if gt IE 8|<!--> <html class="no-js"> <!--
+-->
+<head>
+  <link rel="shortcut icon"  href="assets/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ведущая Маша Колибри</title>
+  <meta name="description" content="Мини-видеокамеры, регистраторы. Таможенный сток: ежемесячно новые партии товара по минимальным ценам. Доставка по всей России.">
+  <meta name="keywords" content="миникамера, mini dx camera, регистратор, видеокамера на велосипед, видеокамера для животных, товары из Китая" >
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,800&amp;subset=cyrillic">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/colors.css">
+<link rel="stylesheet" href="yved/style.css">
+ 
+
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+
+
+  <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+    <div class="container"  >
+      <div class="navbar-header">
+        <button type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse" class="navbar-toggle">
+		<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+		<span class="navbar-brand">Masha Kolibry Logo</span>
+      </div>
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#home">Начало</a></li>
+          <li><a href="#preview">Описание</a></li>
+          <li><a href="#gallery">Галерея</a></li>
+          <li><a href="#test">Отзывы</a></li>
+          <li><a href="#delivery">Доставка</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header data-spy="scroll" data-target=".navbar" data-offset="60" id="home" >
+    <div class="wrapper"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h1><center>Ведущая незабываемых <br>праздников и торжеств <br><b>Маша Колибри</b></center></h1>
+        </div>
+        <div class="col-sm-6 text-right">
+           <p class="phone"><font  color="white"><?php include("admin/params/phone.txt"); ?></font><br><span style="color:#fff;font-size:18px;line-height: 22px;display: block;"><?php include("admin/params/days.txt"); ?></span></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row">
+            <div class="col-sm-7">
+              <div id="carousel-top" class="carousel slide">
+                <div class="carousel-inner">
+                 <div class="item active"><img src="assets/img/33.png" alt="First slide"></div>
+                </div>
+              </div>
+              <p style="font-weight: bold;"><span style="margin-top: 40px" class="glyphicon glyphicon-ok-circle"></span> Миниатюрные размеры!</p><!--блок выезжает снизу если поставить class="wow bounceInUp"-->
+			  <p style="font-weight: bold;"><span class="glyphicon glyphicon-ok-circle"></span> Удобная фиксация на стену и одежду!</p><!--блок выезжает снизу если поставить class="wow bounceInUp"-->
+			  <p style="font-weight: bold;"><span class="glyphicon glyphicon-ok-circle"></span> Бесплатная доставка по всей России!</p><!--блок выезжает снизу если поставить class="wow bounceInUp"-->
+              
+			  
+            </div>
+            <div class="col-sm-5">
+              <!-- форма в шапке страницы -->
+<form action="<?php $info = file_get_contents("admin/params/mails.txt"); if($info == 2) { ?>http://<?php include("admin/params/shop.txt"); ?>.e-autopay.com/checkout/save_order_data<?php } else echo "res"; ?>.php" method="post" name="order_form" target="_parent"> <!--поля в форме заказа выезжают справа (если поставить в формулу слева class="wow bounceInRight shadow" -->
+
+  <legend class="text-center text-uppercase">Заказать сейчас за <s><?php include("admin/params/lastcen.txt"); ?></s> <?php include("admin/params/newcen.txt"); ?> р</legend>
+
+  <div class="form-group">
+    <label for="" class="sr-only">label</label>
+    <input name="name" type="text" placeholder="Введите Ваше имя, фамилию" required class="form-control input-lg">
+  </div>
+
+  <div class="form-group">
+    <label for="" class="sr-only">label</label>
+    <input name="phone" type="text" placeholder="Введите Ваш телефон" required class="form-control input-lg">
+  </div>
+
+  
+  <button type="submit" class="btn btn-creative btn-lg btn-block" return true;"><span>Заказать! </span></button> <!--onclick="yaCounter25109939.reachGoal('ODNRET');-->
+  
+        <input type="hidden" name="form_charset" id="form_charset" value="">
+        <input type="hidden" name="tovar_id" value="<?php include("admin/params/idpay.txt"); ?>">
+        <input type="hidden" name="form_id" value="8932">
+        <input type="hidden" name="order_page_referer" id="order_page_referer" value="" />
+        <input type="hidden" value="3" name="pay_mode">
+        <input type="hidden" value="заказ товара" name="notes">
+
+  <!-- <p class="mt1 text-success text-center" style="font: 25px calibri;"><span class="glyphicon glyphicon-ok-circle"></span> Часы Cobra в подарок!</p> -->
+</form>
+              <div class="row mt">
+                <div class="col-sm-6"><img src="assets/img/g1.png" alt="" class="img-responsive"></div><!--блок выезжает снизу если поставить class="wow bounceInUp"-->
+                <div class="col-sm-6"><img src="assets/img/g2.png" alt="" class="img-responsive"></div><!--блок выезжает снизу если поставить class="wow bounceInUp"-->
+              </div>
+                <!-- форма в шапке страницы -->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-7"></div>
+            <div class="col-sm-5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="about">
+      <div class="container">
+          <div class="row text-center">
+              <img src="img/masha.jpg" alt="" class="about--pic img-circle"> <br>
+              <h2>Маша Колибри</h2>
+          </div>
+          <div class="row text-center">
+              <span>Ведущая</span>
+          </div>
+          <div class="row about--info">
+              <div class="col-sm-6 text-center">
+                  <iframe width="90%" height="450" src="http://www.youtube.com/embed/GBiRD78AqNg?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="col-sm-6" style="font-size:18px;font-family:'OpinionPro';">
+                  Я— первоклассная ведущая, отличный организатор и человек с потрясающей энергетикой. Подарю вам незабываемые эмоции. Проживу всей душой знаменательный
+                  день.<br>Проведу ваш праздник с любовью!<br><br> <strong>Доверьте праздник мне</strong> <br>
+                  Молодой, веселой. Интеллигентной и стильной. Опытной, но все еще страшно влюбленной в свою работу.<br>
+                  <strong><br>Вы получите:<br></strong><br> <strong>Уверенность в качестве</strong> <br>
+                  -Программа пишется индивидуально для каждого торжества<br>-Театральный опыт<br>
+                  -Уважение к людям<br>-Любовь к книгам<br>-Саморазвитие <br><br> <strong>Комфортный вечер</strong> <br>
+                  Хорошо чувствую гостей. При необходимости возьму инициативу в свои руки и создам атмосферу отличного отдыха.<br> <br>
+                  <strong>Все новое лучшее для вас</strong> <br> Ежегодно повышаю квалификацию на специализированных тренингах и многодневных курсах. <br>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-----------------------------------Видеообзор------------------------------->
+  <section id="preview">
+    <div class="wrapper"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center wow fadeInDown"><b>Mini DX Camera</b>камера размером с зажигалку</h2>
+          <div class="row">
+         
+			<div class="col-sm-61">
+			
+<iframe width="560" height="450" src="http://www.youtube.com/embed/GBiRD78AqNg?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+    			</div>
+			<div class="col-sm-62">
+              <div class="row mb"><!--блок выезжает справа (если поставить в кавычки класса слева: wow bounceInRight -->
+                <h3 style="text-align: center"><b>Технические характеристики</b></h3>
+                <ul>
+                    <li>Размеры: 55 x 20 x 18 мм;</li>
+                    <li>Вес: 25 грамм;</li>
+                    <li>Разрешения видео: 720x480;</li>
+                    <li>Тип карты памяти: MicroSD от 2 до 32 Гб;</li>
+                    <li>Формат видео: AVI;</li>
+                    <li>Время работы в режиме записи: до 2 часов;</li>
+                    <li>Угол обзора: 72 градуса;</li>
+                    <li>Зарядка: USB от компьютера или розетки;</li>
+                    <li>Датчик звука: позоволяет камере автоматически включатся при появлении звука на месте съемки;</li>
+                <ul>    
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt wow tada"><a data-toggle="modal" href="#modal-id" class="btn btn-lg btn-custom big">Заказать сейчас</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row mb">
+	  
+	    <div class="col-sm-4"><img src="assets/img/text_1.png" alt="" class="img-responsive img-rounded shadow mb center-block"></div>
+        <div class="col-sm-8">
+         <h3><b>Идеальная скрытая камера</b></h3>
+          <p align="justify" style="font-size: 21px;">    
+           <b>Для съемки в квартире</b> установите камеру на стену, мебель или даже на потолок!</br></br>
+		   Так Вы сможете узнать, чем занимаются Ваши муж / жена, дети и другие в Ваше отсутствие!
+		   </p>
+        </div> 
+        
+        	<br></br>
+<div class="clear"></div>
+	   <div class="col-sm-4"><img src="assets/img/text_2.png" alt="" class="img-responsive img-rounded shadow mb center-block"></div>
+        <div class="col-sm-8"> <!-- блок выезжает справа (если поставить в кавычки класса слева: wow bounceInRight -->
+          <!--<h3><b>Идеальная скрытая камера</b></h3>-->
+          <p align="justify" style="font-size: 21px;">    
+           <b>Зафиксировав общение с инспектором ГИБДД на мини-камеру</b>, Вы обеспечиваете себе правовое алиби. 
+		   Хамство и взяточничество не останется безнаказанным.
+		   
+		   </p>
+        </div>
+		
+		<br></br>
+<div class="clear"></div>		
+       <div class="col-sm-4"><img src="assets/img/text_6.jpg" alt="" class="img-responsive img-rounded shadow mb center-block"></div>
+        <div class="col-sm-8">
+          <!--<h3><b>Ваш инструмент для определения курильщика</b></h3>>-->
+          <p align="justify"  style="font-size: 21px;">    
+           Наверняка с Вами не раз случалась, что в Вашем подъезде или на Вашей детской площадке кто-то курит.
+		   Но выяснить распросами людей это невозможно. Все подозреваемые отнекиваются и говорят, что это не они.
+		   Мини-видеокамера поможет Вам в такой ситуации.
+		   Просто <b>незаметно установите камеру в подъезде или на детской площадке</b>
+		   и Вы точно узнаете, кто загрязняет никотином воздух.</p>
+        </div>
+		
+		<br></br>
+<div class="clear"></div> 
+<!--		
+		<div class="col-sm-4"><img src="assets/img/text_1.png" alt="" class="img-responsive img-rounded shadow mb center-block"></div>
+        <div class="col-sm-8"><!--блок выезжает справа (если поставить в кавычки класса слева: wow bounceInRight
+       
+          <h3><b>Ваш инструмент для определения курильщика</b></h3>
+          <p align="justify">    
+           Наверняка с Вами не раз случалась, что в Вашем подъезде или на Вашей детской площадке кто-то курит.
+		   Но выяснить распросами людей это невозможно. Все подозреваемые отнекиваются и говорят, что это не они.</br></br>
+		   Мини-видеокамера поможет Вам в такой ситуации.
+		   Просто <b>незаметно установите камеру в подъезде или на детской площадке</b>
+		   и Вы точно узнаете, кто загрязняет никотином воздух.</p>
+        </div>
+		
+		<br></br>
+<div class="clear"></div>		
+        <div class="col-sm-4"><img src="assets/img/text_4.png" alt="" class="img-responsive img-rounded shadow mb center-block"></div>
+        <div class="col-sm-8">
+          <h3><b>Вид от первого лица на радиоуправляемых моделях</b></h3>
+          <p align="justify">    
+           Вас заворживает скорость и адреналин гонок? Жить не можете без виражей, полетов и безумных трюков? </br></br>
+		   Камера Mini DX позволит Вам почувствовать себя пилотом гоночного болида, 
+		   трюкового самолета и других скоростных машин! </br></br>
+		   Просто <b>закрепите ее на корпусе вашей 
+		   любимой радиоуправляемой модели</b> и запишите бесценные минуты видео с борта своих моделей. 
+		   Уникальные кадры никого не оставят равнодушным!</p>
+        </div>
+		
+		<br></br>
+<div class="clear"></div>		
+        <div class="col-sm-4"><img src="assets/img/text_3.png" alt="" class="img-responsive img-rounded shadow mb center-block"></div>
+        <div class="col-sm-8">
+          <h3><b>Миниатюрная Action камера</b></h3>
+          <p align="justify">    
+			Безупречные виды горных вершин, альпийские тропы, шикарные перспективы на фоне заката. 
+			Как можно упустить шанс запечатлеть такую красоту? Но что делать, если Вы держите в руках руль велосипеда 
+			или катитесь по склону на сноуборде, контролируя равновесие? Выход есть! </br></br>
+			Просто <b>установите камеру на велосипед 
+			или на Ваш шлем в момент Ваших лучших подвигов на доске, велосипеде или других активных видах отдыха</b>. Запись более 
+			не требует траты концентрации на съемку, сосредоточьтесь на своих навыках управления инвентарем. Снятые кадры пополнят 
+			Вашу домашнюю коллекцию отличных видео, снятых при помощи Mini DX Camera!</p>
+        </div>
+		
+		<br></br>
+<div class="clear"></div>-->
+
+        <div class="col-sm-4"><img src="assets/img/text_3.png" alt="" class="img-responsive img-rounded shadow mb center-block"></div>
+        <div class="col-sm-8"><!--блок выезжает справа (если поставить в кавычки класса слева: wow bounceInRight -->
+          <!--<h3><b>Идеальная скрытая камера</b></h3>-->
+          <p align="justify" style="font-size: 21px;">    
+           <b>Вы можете записать живописные виды или жизнь животных и птиц в лесу</b>, прикрепив камеру к дереву или разместив ее возле гнезда или норы.
+		   
+		   </p>
+        </div>
+		<br></br>
+<div class="clear"></div>
+<!--
+		<div class="col-sm-4"><img src="assets/img/text_4.jpg" alt="" class="img-responsive img-rounded shadow mb center-block"></div>
+        <div class="col-sm-8"><блок выезжает справа (если поставить в кавычки класса слева: wow bounceInRight
+          <h3><b>Идеальная скрытая камера</b></h3>
+          <p align="justify" style="font-size: 21px;">    
+           <b>Закрепите мини-камеру на ошейник Вашей собаки</b> и посмотрите на мир глазами Вашего питомца!
+		   
+		   </p>
+        </div>
+		<br></br>
+<div class="clear"></div>-->
+
+		<div class="col-sm-4"><img src="assets/img/text_5.jpg" alt="" class="img-responsive img-rounded shadow mb center-block"></div>
+        <div class="col-sm-8"><!--блок выезжает справа (если поставить в кавычки класса слева: wow bounceInRight -->
+          <!--<h3><b>Идеальная скрытая камера</b></h3>-->
+          <p align="justify" style="font-size: 21px;">    
+           <b>Установите камеру на велосипед.</b></br></br>
+		   Снятые кадры пополнят Вашу домашнюю коллекцию отличных видео!
+		   </p>
+        </div>
+		<br></br>
+<div class="clear"></div>
+        <div class="col-sm-12" style="padding-top: 25px">
+            <h2 class="text-center wow fadeInDown" style="font-weight: 600">Почему делют выбор в пользу Mini DX камеры:</h2>
+        </div>  
+        <br></br>
+<div class="clear"></div>
+        <div class="col-sm-3">
+            <div class="row mb"><!--блок выезжает справа (если поставить в кавычки класса слева: wow bounceInRight -->
+                <div class="col-sm-8"><img src="assets/img/img_01.jpg" alt="" class="img-responsive img-rounded shadow mb center-block"></div>
+                <div class="col-sm-12">
+                  <h3><b>Миниатюрные размеры</b></h3>
+                  <p align="justify">Размер мини-видеокамеры поразит Вас и перевернет Ваше представление о камерах с ног на голову! Ведь это камера размером с зажигалку: 55 * 20 * 18мм. Самая маленькая камера!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="row mb"><!--блок выезжает справа (если поставить в кавычки класса слева: wow bounceInRight -->
+                <div class="col-sm-8"><img src="assets/img/img_02.jpg" alt="" class="img-responsive img-rounded shadow mb center-block"></div>
+                <div class="col-sm-12">
+                  <h3><b>Удобная фиксация</b></h3>
+                  <p align="justify">Камера Mini DX надежно и удобно фиксируется на различные поверхности от стены и потолка до одежды и мебели! Для крепления используются три кронштейна: прищепка, магнит и для саморезов!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="row mb"><!--блок выезжает справа (если поставить в кавычки класса слева: wow bounceInRight -->
+                <div class="col-sm-8"><img src="assets/img/img_03.jpg" alt="" class="img-responsive img-rounded shadow mb center-block"></div>
+                <div class="col-sm-12">
+                  <h3><b>Популярная модель</b></h3>
+                  <p align="justify">Mini DX является одной из наиболее популярных на сегодняшний день моделей мини камер. Цветная видеозапись, звук. Камера имеет очень компактный размер. </p>
+                </div>
+              </div>
+        </div>
+
+
+
+		
+<div class="clear"></div>
+		
+</section>	
+  <section id="gallery">
+    <div class="wrapper"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center wow fadeInDown"><b>Галерея</b></h2>
+          <div class="text-center">
+            <!-- слайд галереи, в ссылку вставляем адрес большой картинки, в тэг картинки адрес миниатюры -->
+            <a rel="gallery1" href="assets/img/gallery/1.jpg" title="Mini DX Camera" class="fancybox">
+              <img src="assets/img/gallery/1_prev.jpg" alt="">
+            </a>
+            <!-- слайд галереи -->
+            <!-- слайд галереи, в ссылку вставляем адрес большой картинки, в тэг картинки адрес миниатюры -->
+            <a rel="gallery1" href="assets/img/gallery/2.jpg" title="Mini DX Camera" class="fancybox">
+              <img src="assets/img/gallery/2_prev.jpg" alt="">
+            </a>
+            <!-- слайд галереи -->
+            <!-- слайд галереи, в ссылку вставляем адрес большой картинки, в тэг картинки адрес миниатюры -->
+            <a rel="gallery1" href="assets/img/gallery/3.jpg" title="Mini DX Camera" class="fancybox">
+              <img src="assets/img/gallery/3_prev.jpg" alt="">
+            </a>
+            <!-- слайд галереи -->
+            <!-- слайд галереи, в ссылку вставляем адрес большой картинки, в тэг картинки адрес миниатюры -->
+            <a rel="gallery1" href="assets/img/gallery/4.jpg" title="Mini DX Camera" class="fancybox">
+              <img src="assets/img/gallery/4_prev.jpg" alt="">
+            </a>
+            <!-- слайд галереи -->
+            <!-- слайд галереи, в ссылку вставляем адрес большой картинки, в тэг картинки адрес миниатюры -->
+            <a rel="gallery1" href="assets/img/gallery/5.jpg" title="Mini DX Camera" class="fancybox">
+              <img src="assets/img/gallery/5_prev.jpg" alt="">
+            </a>
+            <!-- слайд галереи -->
+            <!-- слайд галереи, в ссылку вставляем адрес большой картинки, в тэг картинки адрес миниатюры -->
+            <a rel="gallery1" href="assets/img/gallery/6.jpg" title="Mini DX Camera" class="fancybox">
+              <img src="assets/img/gallery/6_prev.jpg" alt="">
+            </a>
+            <!-- слайд галереи -->
+            <!-- слайд галереи, в ссылку вставляем адрес большой картинки, в тэг картинки адрес миниатюры -->
+            <a rel="gallery1" href="assets/img/gallery/7.jpg" title="Mini DX Camera" class="fancybox">
+              <img src="assets/img/gallery/7_prev.jpg" alt="">
+            </a>
+            <!-- слайд галереи -->
+            <!-- слайд галереи, в ссылку вставляем адрес большой картинки, в тэг картинки адрес миниатюры -->
+            <a rel="gallery1" href="assets/img/gallery/8.jpg" title="Mini DX Camera" class="fancybox">
+              <img src="assets/img/gallery/8_prev.jpg" alt="">
+            </a>
+            <!-- слайд галереи -->
+            <!-- слайд галереи, в ссылку вставляем адрес большой картинки, в тэг картинки адрес миниатюры -->
+            <a rel="gallery1" href="assets/img/gallery/9.jpg" title="Mini DX Camera" class="fancybox">
+              <img src="assets/img/gallery/9_prev.jpg" alt="">
+            </a>
+            <!-- слайд галереи -->
+            <!-- слайд галереи, в ссылку вставляем адрес большой картинки, в тэг картинки адрес миниатюры -->
+            <a rel="gallery1" href="assets/img/gallery/10.png" title="Mini DX Camera" class="fancybox">
+              <img src="assets/img/gallery/10_prev.png" alt="">
+            </a>
+            <!-- слайд галереи -->
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-sm-12 text-center mt wow tada"><a data-toggle="modal" href="#modal-id" class="btn btn-lg btn-custom big">Заказать сейчас</a></div>
+      </div>
+  </section>
+ <section id="test" class="comment">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center wow fadeInDown"><b>Отзывы</b></h2>
+          <!-- комментарий -->
+          <div class="row comment-body wow fadeInDown">
+            <div class="col-sm-3 text-center">
+              <!-- картинка и имя автора -->
+              <img src="assets/img/rev/otzyv7.png" alt="" class="img-responsive img-circle center-block mb">
+              <h4>Александра Симонова</h4>
+              <!-- картинка и имя автора -->
+            </div>
+            <div class="col-sm-9">
+              <!-- тело комментария -->
+              <h3>Камера на все случаи жизни</h3>
+              <p>Мария, спасибо большое за организацию нашей свадьбы 6 мая.Нам было весело и душевно, все гости в восторге))) спасибо за эти эмоции и запоминающийся день!!)))</p>
+              <!-- тело комментария -->
+            </div>
+          </div>
+         <div class="row comment-body wow fadeInDown">
+            <div class="col-sm-3 text-center">
+              <!-- картинка и имя автора -->
+              <img src="assets/img/rev/otzyv5.png" alt="" class="img-responsive img-circle center-block mb">
+              <h4>Марианна Пепанян</h4>
+              <!-- картинка и имя автора -->
+            </div>
+            <div class="col-sm-9">
+              <!-- тело комментария -->
+              <h3>Теперь мы можем смотреть что делают дети в наше отсутствие</h3>
+              <p>Спасибо большое Маша за День рождения Эдгара,За положительные эмоции,за веселый праздник от души,дети были в восторге</p>
+            </div>
+          </div>
+          <div class="row comment-body wow fadeInDown">
+            <div class="col-sm-3 text-center">
+              <!-- картинка и имя автора -->
+              <img src="assets/img/rev/otzyv3.png" alt="" class="img-responsive img-circle center-block mb">
+              <h4>Ольга Дмитриева</h4>
+              <!-- картинка и имя автора -->
+            </div>
+            <div class="col-sm-9">
+              <!-- тело комментария -->
+              <h3>Машенька, спасибо тебе!</h3>
+              <p>8 июля у нас состоялась свадьба. Очень ответственный и сложный день, думали мы, но, как оказалось, когда уже втягиваешь в процесс,
+			  все идет как по маслу, конечно, не без помощи близких и безусловно ведущей) Мари!!!Без тебя не получилось бы такого шикарного праздника с танцами, с песнями,
+			  с тёплыми словами, от которых хотелось расплакаться от счастья! Спасибо за советы и поддержку в такой день) все гости отметили твою работу на высоте! 
+			  Действительно можно сказать, что праздник прошёл на УРА!</p>
+                  </div>
+          </div>
+          <div class="row comment-body wow fadeInDown">
+            <div class="col-sm-3 text-center">
+              <!-- картинка и имя автора -->
+              <img src="assets/img/rev/otzyv2.png" alt="" class="img-responsive img-circle center-block mb">
+              <h4>Кирилл Сидоров</h4>
+              <!-- картинка и имя автора -->
+            </div>
+            <div class="col-sm-9">
+              <!-- тело комментария -->
+              <h3>Работает хорошо, в комплекте все, что заявлено</h3>
+              <p>Отличная ведущая, супер диджей! Провели свадьбу на ура! Все чётко, во время, очень эмоционально! Всем гостям и нам очень понравилось! Не смотря на то что я
+			  достаточно застенчивый Маша смогла раскачать меня!Маша, большое тебе, человеческое спасибо!</p>
+            </div>
+          </div>
+          <div class="row comment-body wow fadeInDown">
+            <div class="col-sm-3 text-center">
+              <!-- картинка и имя автора -->
+              <img src="assets/img/rev/otzyv1.png" alt="" class="img-responsive img-circle center-block mb">
+              <h4>Екатерина Гурова</h4>
+              <!-- картинка и имя автора -->
+            </div>
+            <div class="col-sm-9">
+              <!-- тело комментария -->
+              <h3>Спасибо огромное Машеньке за проведение моего дня рождения</h3>
+              <p>Вечеринка в стиле "Оскар" прошла на высшем уровне благодаря веселым конкурсам и шикарной энергетике нашей ведущей)Я смеялась от души во время каждого
+			  конкурса )Советую именно Машу для вашего мероприятия!!!Я знаю в этом толк!!Гости остались довольны)Ещё раз СПАСИБО!!!!</p>
+           <!-- тело комментария -->
+            </div>
+          </div>
+          <!-- комментарий -->
+		<!-- комментарий -->
+          <div class="row comment-body wow fadeInDown">
+            <div class="col-sm-3 text-center">
+              <!-- картинка и имя автора -->
+              <img src="assets/img/rev/otzyv8.png" alt="" class="img-responsive img-circle center-block mb">
+              <h4>Ольга Шнайдер</h4>
+              <!-- картинка и имя автора -->
+            </div>
+            <div class="col-sm-9">
+              <!-- тело комментария -->
+              <h3>С благодарностью и до скорых встреч команда СБЕРБАНКа.</h3>
+              <p>Маша, большой командой в 53 человека))) Мы хотим сказать тебе СПАСИБО!!! Спасибо за то, что наш вечер ты превратила в увлекательный батл))!!!
+			  Спасибо за индивидуальный подход, ведь узнав некоторые факты ты смогла за столь короткий промежуток времени сделать нам такой ролик))))) Все конкурсы
+			  были очень интересными, смешными, особенно хотим отметить конкурс "Борода" и "Угадай Песню". Благодаря твоему профессионализму и позитиву этот вечер
+			  мы запомним надолго))!!</p>
+          <!-- тело комментария -->
+            </div>
+          </div>
+          <!-- комментарий -->
+        </div>
+      </div>
+    </div>
+  </section>
+<!----------------------------------------Доставка--------------------------------------------------------------------> 
+        <section id="delivery" class="grey">
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+<g>
+	<path d="M296.423,490.653c-36.927,0-66.769,29.949-66.769,66.876c0,36.819,29.842,66.769,66.769,66.769s66.768-29.95,66.768-66.769
+		C363.191,520.602,333.35,490.653,296.423,490.653z M296.423,590.913c-18.464,0-33.385-15.029-33.385-33.385
+		c0-18.463,14.921-33.384,33.385-33.384c18.463,0,33.384,14.921,33.384,33.384C329.807,575.885,314.886,590.913,296.423,590.913z
+		 M800,441.257v71.294c0,17.786-14.418,32.203-32.203,32.203h-34.458c-6.226-42.723-43.045-75.571-87.486-75.571
+		c-44.333,0-81.153,32.848-87.379,75.571h-174.65c-6.226-42.723-43.045-75.571-87.379-75.571c-44.333,0-81.153,32.848-87.378,75.571
+		h-43.153c-17.786,0-32.203-14.418-32.203-32.203v-71.294H800z M645.938,490.653c-36.927,0-66.876,29.949-66.876,66.876
+		c0,36.819,29.95,66.769,66.876,66.769c36.819,0,66.768-29.95,66.768-66.769C712.706,520.602,682.757,490.653,645.938,490.653z
+		 M645.938,590.913c-18.464,0-33.385-15.029-33.385-33.385c0-18.463,14.921-33.384,33.385-33.384
+		c18.356,0,33.384,14.921,33.384,33.384C679.322,575.885,664.294,590.913,645.938,590.913z M787.311,369.461L660.752,244.296
+		c-8.051-7.943-18.893-12.452-30.164-12.452h-63.87v-23.938c0-17.819-14.385-32.203-32.203-32.203H165.891
+		c-17.712,0-32.203,14.385-32.203,32.203v5.046L3.007,228.012l231.563,30.154L0,281.468l233.744,33.233L0,334.968l133.697,25.216
+		l-0.009,63.271h666.29v-23.509C799.978,388.46,795.362,377.512,787.311,369.461z M732.136,373.647h-122.48
+		c-2.791,0-5.046-2.254-5.046-5.045v-94.571c0-2.791,2.254-5.046,5.046-5.046h23.294c1.288,0,2.576,0.537,3.543,1.396l99.079,94.571
+		C738.898,368.065,736.644,373.647,732.136,373.647z"/>
+</g>
+</svg>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center wow fadeInDown"><b>Доставка и оплата</b></h2>
+          <div class="text-center">
+            <h3><b>Доставка Почтой России</b></h3>
+            <p>Мы Вам доверяем и не требуем с Вас предоплаты.</p>
+            <p>Мы уважаем Ваше время, и поэтому Ваш заказ будет сформирован и отправлен в ближайшее время.</p>
+            <p>Вы можете забрать и оплатить свой заказ на почте в любое удобное для Вас время.</p>
+          </div>
+          <div role="tabpanel" class="mt hidden-xs">
+            <!-- Nav tabs-->
+            <ul role="tablist" class="nav nav-tabs">
+              <li role="presentation" class="active"><a href="#cost" aria-controls="cost" role="tab" data-toggle="tab">Стоимость доставки</a></li>
+              <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Сроки доставки</a></li>
+              <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Оплата заказа</a></li>
+              <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Условия доставки</a></li>
+            </ul>
+            <!-- Tab panes-->
+            <div class="tab-content">
+              <div id="cost" role="tabpanel" class="tab-pane active">
+                <p>В честь открытия сайт Tamojka.ru дарит бесплатную доставку всем покупателям в марте.</p>
+              </div>
+              <div id="profile" role="tabpanel" class="tab-pane">
+                <p>Доставка занимает 5-14 дней (в зависимости от удаленности Вашего региона).</p>
+                <p>Чтобы ускорить прибытие Вашего заказа, мы отправляем бандероли ежедневно, включая выходные дни.</p>
+              </div>
+              <div id="settings" role="tabpanel" class="tab-pane">
+                <p>Оплата осуществляется в почтовом отделении при получении заказа.</p>
+              </div>
+              <div id="messages" role="tabpanel" class="tab-pane">
+                <p>В момент отправки, каждому заказу присваивается номер. По номеру можно отследить доставку посылки на сайте Почты России. Через 2 дня после отправки посылки, мы вышлем номер Вашей посылки смс сообщением на Ваш телефон.</p>
+                <p>Получить заказ можно в почтовом отделении, индекс которого был указан при оформлении заказа. Уведомление о доставке заказа придет по Вашему адресу. Если уведомление Вам не поступило, то через 10 дней сходите на почту самостоятельно. Скорее всего Ваша посылка уже ждёт Вас на почте.</p>
+                <p>Для получения заказа на почте возьмите с собой паспорт.</p>
+                <p>Срок хранения заказа в почтовом отделении составляет 1 месяц с момента поступления. Просим Вас своевременно получить пришедший заказ.</p>
+                <p>Мы осуществляем доставку по всей России.</p>
+              </div>
+            </div>
+          </div>
+           </div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-sm-12 text-center mt wow tada"><a data-toggle="modal" href="#modal-id" class="btn btn-lg btn-custom big">Заказать сейчас</a></div>
+      </div>
+  </section>
+  <!--Конец блока доставка-->
+
+<footer class="mob-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>Камера размером с зажигалку <b>Mini DX Camera</b></h2>
+        </div>
+        <div class="col-sm-6 text-right">
+            <p class="phone">+7 (977) 280-90-23</p>
+            <span style="color:#fff; font-size:18px; line-height: 22px; display: block;">Ежедневно <br> с 09:00 до 19:00 МСК</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4"><a href="polit/index.htm" target="_blank">Политика конфиденциальности</a></div>
+        <div class="col-sm-44 text-right" style="color: 000;"><!--#2E64B0-->
+          <p><?php include("admin/params/timer.txt"); ?>
+		  
+		  </p>
+        </div>
+       </div>
+    </div>
+  </footer>
+   <!---------------Конец видимой части------------------------------------>
+              <!-- форма во всплывающем окне - заказ -->
+  <div id="modal-id" class="modal fade">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" data-dismiss="modal" class="close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title" align="center">Заказать камеру Mini DX</h4>
+        </div>
+        <div class="modal-body">
+<form action="<?php $info = file_get_contents("admin/params/mails.txt"); if($info == 2) { ?>http://<?php include("admin/params/shop.txt"); ?>.e-autopay.com/checkout/save_order_data<?php } else echo "res"; ?>.php" method="post" name="order_form" target="_parent"> <!--поля в форме заказа выезжают справа (если поставить в формулу слева class="wow bounceInRight shadow" -->
+
+  <div class="form-group">
+    <label for="" class="sr-only">label</label>
+    <input name="name" type="text" placeholder="Введите имя, фамилию" required class="form-control input-lg">
+  </div>
+
+  <div class="form-group">
+    <label for="" class="sr-only">label</label>
+    <input name="phone" type="text" placeholder="Введите Ваш телефон" required class="form-control input-lg">
+  </div>
+  
+  <button type="submit" class="btn btn-creative btn-lg btn-block" return true;"><span>Заказать! </span></button><!--onclick="yaCounter25109939.reachGoal('ODNRET');-->
+
+        <input type="hidden" name="form_charset" id="form_charset" value="">
+        <input type="hidden" name="tovar_id" value="<?php include("admin/params/idpay.txt"); ?>">
+        <input type="hidden" name="form_id" value="8932">
+        <input type="hidden" name="order_page_referer" id="order_page_referer" value="" />
+        <input type="hidden" value="3" name="pay_mode">
+        <input type="hidden" value="заказ товара" name="notes">
+</form>
+        </div>
+      </div>
+    </div>
+  </div>
+            <!-- форма во всплывающем окне с заказом конец -->
+			<!-- форма во всплывающем окне звонок -->
+  <div id="modal-zk" class="modal fade">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" data-dismiss="modal" class="close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title">Заказать обратный звонок</h4>
+        </div>
+        <div class="modal-body">
+<form action="res.php" method="post" name="order_form" target="_parent">  <!--поля в форме заказа выезжают справа (если поставить в формулу слева class="wow bounceInRight shadow" -->
+  <div class="form-group">
+    <label for="" class="sr-only">label</label>
+    <input name="name" type="text" placeholder="Введите Ваше имя" required class="form-control input-lg">
+  </div>
+  <div class="form-group">
+    <label for="" class="sr-only">label</label>
+    <input name="phone" type="text" placeholder="Введите Ваш телефон" required class="form-control input-lg">
+        <input type="hidden" value="заказ звонка" name="notes">
+  </div>
+  <button type="submit" class="btn btn-creative btn-lg btn-block" return true;"><span>Заказать! </span></button>
+</form>
+        </div>
+      </div>
+    </div>
+  </div>
+            <!-- форма во всплывающем окне звонок конец-->
+ <script src="assets/scripts/script.js"></script>
+  <script src="http://e-timer.ru/js/etimer.js"></script>
+  <script src="yved/script.js"></script>
+ <div class="yvedw">
+	<div class="yved yvedf1">
+		<img src="yved/yico.png" alt="" class="yvedi">
+		<div class="yvedvt"><div class="yvedt">Светлана Лаврентьева, г.Москва, сделала заказ на сумму <?php include("admin/params/newcen.txt"); ?>р, кол-во 1 шт</div></div>
+	</div>
+	<div class="yved yvedf2">
+		<img src="yved/yico2.png" alt="" class="yvedi">
+		<div class="yvedvt"><div class="yvedt">Кира Зубарева, г.Астрахань, оставила заявку на обратный звонок</div></div>
+	</div>
+	<div class="yved yvedf1">
+		<img src="yved/yico.png" alt="" class="yvedi">
+		<div class="yvedvt"><div class="yvedt">Прохор Матвеев, г.Липецк, сделал заказ на сумму <?php include("admin/params/newcen.txt"); ?>р, кол-во 1 шт</div></div>
+	</div>
+	<div class="yved yvedf1">
+		<img src="yved/yico.png" alt="" class="yvedi">
+		<div class="yvedvt"><div class="yvedt">Дарья Арамонова, г.Екатеринбург, сделала заказ на сумму <?php include("admin/params/newcen.txt"); ?>р, кол-во 1 шт</div></div>
+	</div>
+	<div class="yved yvedf1">
+		<img src="yved/yico.png" alt="" class="yvedi">
+		<div class="yvedvt"><div class="yvedt">Эмиль Измайлов, г.Климовск, сделал заказ на сумму 5980р, кол-во 2 шт</div></div>
+	</div>
+	<div class="yved yvedf1">
+		<img src="yved/yico.png" alt="" class="yvedi">
+		<div class="yvedvt"><div class="yvedt">Ефрем Беляков, г.Салехард, сделал заказ на сумму <?php include("admin/params/newcen.txt"); ?>р, кол-во 1 шт</div></div>
+	</div>
+	<div class="yved yvedf1">
+		<img src="yved/yico.png" alt="" class="yvedi">
+		<div class="yvedvt"><div class="yvedt">Люция Горбунова, г.Уссурийск, сделала заказ на сумму 5980р, кол-во 2 шт</div></div>
+	</div>
+	<div class="yved yvedf2">
+		<img src="yved/yico2.png" alt="" class="yvedi">
+		<div class="yvedvt"><div class="yvedt">Катерина Маслова, г.Киров, оставила заявку на обратный звонок</div></div>
+	</div>
+	<div class="yved yvedf1">
+		<img src="yved/yico.png" alt="" class="yvedi">
+		<div class="yvedvt"><div class="yvedt">Алексей Комаров, г.Москва, сделал заказ на сумму <?php include("admin/params/newcen.txt"); ?>р, кол-во 1 шт</div></div>
+	</div>
+	<div class="yved yvedf1">
+		<img src="yved/yico.png" alt="" class="yvedi">
+		<div class="yvedvt"><div class="yvedt">Виктор Бодро́в, г.Санкт-Петербург, сделал заказ на сумму 5980р, кол-во 2 шт</div></div>
+	</div>
+  </div>
+   <?php include("admin/params/scripts.txt"); ?>
+ </body> 
+</html>
